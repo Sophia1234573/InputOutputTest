@@ -16,5 +16,10 @@ public class InputOutputTest {
 
       System.out.print("Please, input your hobbies ");
       String hobbies = in.nextLine();
+
+      System.out.printf("Имя: %s /n Город: %s /n Возраст: %d /n Хобби: %s /n", name, city, age, hobbies);
+      System.out.println("Человек по имени " + name + " живет в городе " + city + ". Этому человеку лет " + age + " и любит он заниматься " + hobbies + ".");
+      System.out.printf("%s - имя %s - город %d - возраст %s - хобби /n", name, city, age, hobbies);
+      in.close();
     }
 }
